@@ -50,6 +50,8 @@ def handleKeyPressed():
         interpreter("09_mirror_spheres.cli")
     elif key == '0':
         interpreter("10_reflections_in_reflections.cli")
+    elif key == '-':
+        interpreter("11_star.cli")
 
 # You should add code for each command that calls routines that you write.
 # Some of the commands will not be used until Part B of this project.
