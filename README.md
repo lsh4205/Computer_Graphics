@@ -1,3 +1,8 @@
 # Computer_Graphics
-## August, 2022 - December, 2022
-### Studying Computer Graphics via Processing (Python, Java, and OpenGSL)
+## 3D Object Design & Animation
+
+## Ray Tracing
+
+## GPU Rendering
+
+## Subdivision and Geodesic Spheres
