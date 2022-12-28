@@ -25,3 +25,33 @@ Computer graphic projects with [Processing](https://processing.org/) (python) an
 
 ## Subdivision and Geodesic Spheres
 [p5_meshes](https://github.com/lsh4205/Computer_Graphics/tree/main/p5_meshes)
+* Processing that reads in polyhedral models and creates geodesic surface using triangle subdivision.
+
+<img width="318.4" alt="Screen Shot 2022-12-27 at 7 26 47 PM" src="https://user-images.githubusercontent.com/63761734/209739481-2a278370-a89a-4af2-9e0c-080ec8c8cbd6.png"> <img width="318.4" alt="Screen Shot 2022-12-27 at 7 27 55 PM" src="https://user-images.githubusercontent.com/63761734/209739518-85ad6ed0-ef12-48bb-9bff-5fdcd841f391.png">
+
+* After division
+
+<img width="318.4" alt="Screen Shot 2022-12-27 at 7 26 55 PM" src="https://user-images.githubusercontent.com/63761734/209739502-978aefa8-5fba-41c8-9a05-fb725179ec02.png"> <img width="318.4" alt="Screen Shot 2022-12-27 at 7 28 12 PM" src="https://user-images.githubusercontent.com/63761734/209739530-7c1c1740-0a77-48b4-b712-5ab539d734d2.png">
+
+* After normalizaiton
+
+<img width="318.4" alt="Screen Shot 2022-12-27 at 7 30 22 PM" src="https://user-images.githubusercontent.com/63761734/209739550-b1b2bf9e-2d32-4c70-838c-9bbc7c35fe81.png"> <img width="318.4" alt="Screen Shot 2022-12-27 at 7 30 53 PM" src="https://user-images.githubusercontent.com/63761734/209739598-9449eae6-cd4a-46b4-b5d0-9cc728fe430b.png">
+
+* Random color generated in divided traingle plane
+
+<img width="318.4" alt="Screen Shot 2022-12-27 at 7 31 31 PM" src="https://user-images.githubusercontent.com/63761734/209739613-f05e6bd2-a987-4eec-ae57-39cc83c275d3.png"> <img width="318.4" alt="Screen Shot 2022-12-27 at 7 36 48 PM" src="https://user-images.githubusercontent.com/63761734/209740120-68c859ce-c815-4628-9f5b-075c14c3bf12.png">
+
+This program responds to the following keystroke commands:
+* 1 - 4 : Read in a mesh file (tetrahedron, octahedron, icosahedron, star).
+* d : Create the triangle subdivided current mesh (you should be able to do this more than once).
+* i : Inflate the points of the mesh so that they lie on the unit sphere.
+* r : Toggle between white and randomly colored faces.
+* c : Toggle between showing and not showing the current corner as a sphere.
+* n : Change the current corner using the "next" operator.
+* p : Change the current corner using the "previous" operator.
+* o : Change the current corner using the "opposite" operator.
+* s : Change the current corner using the "swing" operator.
+
+
+
+
